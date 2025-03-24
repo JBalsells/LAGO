@@ -1,0 +1,13 @@
+general:
+  app_name: "LAGO"
+  version: 1.0
+
+connection:
+  host: "192.168.40.59"
+  password: "password"
+  user: "root"
+  port: 22
+
+parameters:
+  threshold: 0.8
+  voltage: 1000
