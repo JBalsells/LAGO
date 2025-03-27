@@ -4,7 +4,7 @@ general:
 
 connection:
   host: "192.168.40.59"
-  password: "password"
+  password: "escondido"
   user: "root"
   port: 22
 
