@@ -33,9 +33,12 @@ if __name__ == "__main__":
     if command_name == "high_voltage":
         command = "-s hv1"
     elif command_name == "threshold":
-        command = ""
+        command = "-s t1"
+    elif command_name == "get_registers":
+        command = "-a"
+    elif command_name == "get_data":
+        command = "-o"
 
     command = f"./lago {command} {value}"
-
     print(f"{command}: {value}")
     print(ssh_connect(command))
